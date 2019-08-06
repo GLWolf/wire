@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tony B.</title>
+    <link rel="stylesheet" type="text/css" href="wire.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/png" href="img/test2.png">
+</head>
+
+<body class="test">
+    <header role="banner">
+        <nav class="navBar">
+            <div class="navContainer">
+                <a href="mailto:bentotony10@yahoo.com" target="_blank">
+                    <p class="fa fa-envelope" style="font-size: 35px"></p>
+                </a>
+                <a href="https://www.linkedin.com/in/tony-bento-35801818b/" target="_blank">
+                    <p class="fa fa-linkedin" style="font-size: 35px"></p>
+                </a>
+                <a href="https://github.com/GLWolf" target="_blank">
+                    <p class="fa fa-github" style="font-size: 35px"></p>
+                </a>
+                <a href="https://twitter.com/Tonybento5" target="_blank">
+                    <p class="fa fa-twitter" style="font-size: 35px"></p>
+                </a>
+            </div>
+        </nav>
+        <img class="name" src="img/4.png" alt="Tony Bento">
+        <section class="hero">
+            <h1>Imagine <span class="dot"></span>
+                Discover<span class="dot"></span>
+                Create</h1>
+        </section>
+    </header>
+    <!--the main will contain all the info for the tabs.so when a tab is click will display correct info-->
+    <main role="main">
+        <!--this are will be tabs each project will have a tab-->
+        <section class="tabArea">
+            <div class="tabContainer">
+                <button class="tab about-me" onclick="openContent(event, 'about')" id="defaultOpen">About me</button>
+                <button class="tab project1" onclick="openContent(event, 'p1')">Projects</button>
+                <!-- <button class="tab project2" onclick="openContent(event, 'p2')">???</button> -->
+        </section>
+        <section id="about" class="tabContent about">
+            <div class="body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.
+                    </br>
+                    </br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum
+                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                    officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+        </section>
+        <section id="p1" class="tabContent projects1">
+            <div class="project-title">
+                <h2>Green Lantern Quiz</h2>
+            </div>
+            <div class="project-img" style="max-width:500px">
+                <img class="image screenCap1" src="img/snap1.PNG" alt="screen cap intro" width="100%" />
+                <img class="image screenCap1" src="img/snap2.PNG" alt="screen cap question" width="100%" />
+                <img class="image screenCap1" src="img/snap3.PNG" alt="screen cap answer" width="100%" />
+            </div>
+            <div class="details">
+                <h2>Links</h2>
+                <ul>
+                    <li><a class="repLink" href="https://glwolf.github.io/quizApp/" target="_blank">Live App</a></li>
+                    <li><a class="repLink" href="https://github.com/GLWolf/quizApp" target="_blank">Repository</a></li>
+                </ul>
+                <h2>Description</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum. </p>
+                <h2>Hurdles</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum..
+                </p>
+                <h2>What I learned</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum..</p>
+                <h2>Coding Languages</h2>
+                <ul class="Lang">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>JQuery</li>
+                </ul>
+            </div>
+            <div class="project2">
+                <p>future projects will go here.</p>
+            </div>
+        </section>
+        <section id="p2" class="tabContent projects2">
+            
+            
+        </section>
+    </main>
+
+</body>
+
+</html>
